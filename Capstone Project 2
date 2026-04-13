@@ -1,0 +1,65 @@
+# Capstone Project: Revenue & Occupancy Rate Optimization for Airbnb Thailand
+## Overview
+This project aims to analyze Airbnb listing performance in Thailand and provide data-driven strategies to improve revenue and occupancy rate.
+
+Key highlights:
+- Total listings: 15,853 properties
+- Annual revenue target: THB 718,740 (+10% YoY growth)
+- Tourism demand is strong, with an average of 926,000 visitors per month
+
+## Problem Statement
+How can Airbnb increase its revenue by 10% YoY while simultaneously improving the occupancy rate across listings in Thailand?
+
+## Data Preparation
+Data preprocessing steps include:
+
+### Handling missing values:
+- name, host_id → dropped
+- last_review, reviews_per_month → columns removed
+
+### Data transformation:
+- Revenue calculated using:
+- Revenue = Count of Listings × Price
+- Final dataset prepared for analysis
+
+## Explanatory Data Analysis
+Key findings:
+- Entire home/apartment has the highest average price (~THB 4,108)
+- Top revenue-generating area: Vadhana
+- Listings are concentrated in central areas (Vadhana, Khlong Toei, Huai Khwang)
+- Non-central areas show lower occupancy rates
+- Top hosts by estimated revenue: Yasmine, Nattawut, Lucio
+
+## Key Insights
+- Entire home listings dominate both in quantity and pricing
+- Location plays a critical role in revenue generation
+- Reviews and host activity significantly impact listing performance
+- There is untapped potential in non-central areas
+
+## Strategy Recommendations
+### 📦 Listing Acquisition
+- Increase the number of listings to expand market share
+### 🏆 Host Race Program
+- Create competition among hosts to improve occupancy rates
+- Provide rewards for top-performing hosts
+### ⭐ Guest Review Enhancement
+- Offer incentives for guests to leave reviews
+- Improve service quality through feedback
+### 🗺️ Itinerary Feature Development
+- Introduce travel itinerary features to promote non-central areas
+- Encourage bookings beyond city centers
+
+## Implementation Plan
+### Host-Centric
+- Incentives for sales teams to acquire new listings
+- Quarterly rewards for top-performing hosts
+
+### Guest Centric
+- Rewards for high-quality reviews
+- Monthly incentives for the best itinerary contributions
+
+## Expected Outcomes
+- Achieve +10% YoY revenue growth
+- Increase overall occupancy rates
+- Better distribution of bookings across regions
+- Enhanced user experience for both hosts and guests
